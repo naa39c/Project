@@ -1,0 +1,4 @@
+ACME Corp Employee Policy
+Vacation: Employees receive 15 days PTO per year.
+Remote work: Allowed up to 3 days per week with manager approval.
+HR Contact: Jane Smith at hr@acmecorp.com
