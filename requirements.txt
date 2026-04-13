@@ -1,1 +1,9 @@
-requirements for our python code will go in this .txt file
+langchain
+langchain-community
+langchain-openai
+langchain-text-splitters
+langchain-classic
+chromadb
+pypdf
+python-dotenv
+openai
