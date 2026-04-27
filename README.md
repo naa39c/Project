@@ -51,3 +51,10 @@ python main.py
 - `README.md` — This file
 - `requirements.txt` — Python dependencies
 
+## Reproducibility (How to Run)
+- To reproduce these findings, you may follow these steps in the provided GitHub repository:
+- Setup: Clone the repository and run pip install -r requirements.txt. Ensure your .env file contains a valid OPENAI_API_KEY.
+- Run Baseline: Execute python src/rag_baseline.py. Observe the LLM leaking the secrets in the terminal.
+- Run Defense 1: Execute python src/rag_sanitized.py. Observe the system blocking the malicious queries.
+- Run Defense 2: Execute python src/rag_isolated.py. Observe the LLM answering queries safely while explicitly ignoring the embedded commands in the resume.
+
